@@ -1,17 +1,15 @@
-.container {
+.container-fluid {
     position: relative;
 }
 .image1 {
   position: relative;
   top: 0;
   left: 0;
-  border: 1px red solid;
+  border: 2px red solid;
 }
 .image2 {
-  position: relative;
-  /*max-width: 40%;*/
-  /*max-height: 40%;*/
-  top: 25px;
+  position: absolute;
+  top: 20px;
   left: 25px;
   border: 2px rgb(221, 56, 14);
 }
